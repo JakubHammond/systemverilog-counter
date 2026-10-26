@@ -49,7 +49,3 @@ Inputs change on falling clock edges. Checks run 1 ns after rising edges so the 
 - Understand synchronous reset, enable, and finite-width arithmetic.
 - Generate a clock and drive inputs in a testbench.
 - Check expected results automatically with tasks and `$fatal`.
-
-## Development
-
-The counter began as my own implementation. OpenAI Codex helped review the syntax, explain SystemVerilog, and prepare the testbench and documentation. This repository is a learning project, with simulation validation using Icarus Verilog.
